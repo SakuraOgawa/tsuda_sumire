@@ -1,0 +1,129 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3";
+  line-height: 1.7;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 4%;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+#header {
+  border-bottom: solid 1px #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+#header .site-title {
+  width: 180px;
+  line-height: 1px;
+  padding: 10px 0;
+}
+#header .site-title a {
+  display: block;
+}
+#header ul {
+  display: flex;
+  padding: 10px 0;
+}
+#header ul li {
+  font-size: 1.25rem;
+  margin-left: 93px;
+}
+#header ul li a {
+  color: #24292e;
+}
+#header ul li a:hover {
+  opacity: 0.7;
+}
+
+#about .section-title {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 140px 1033px 50px 135px;
+}
+#about .main-visual {
+  margin: 0 150px 80px 140px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#about .introduction {
+  display: flex;
+  justify-content: space-between;
+}
+#about .introduction .explain {
+  text-align: left;
+  margin: 34px 150px 0 0;
+}
+#about .introduction .explain h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+#about .introduction .explain p {
+  font-size: 1.25rem;
+}
+#about #contents {
+  display: flex;
+  margin: 100px auto;
+  padding: 0 10%;
+}
+#about #contents .item {
+  justify-content: center;
+  margin-right: 60px;
+}
+#about #contents .item img {
+  width: 300px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 30px;
+}
+#about #contents .item h3 {
+  font-size: 1.25remm;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+#about #contents .last-child {
+  margin-right: 0;
+}
+
+#footer {
+  border-top: solid 1px #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+#footer .favicon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 10px 0;
+}
+#footer img {
+  margin-right: 20px;
+}/*# sourceMappingURL=style.css.map */
