@@ -1,0 +1,106 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3";
+  line-height: 1.7;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 4%;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+#header {
+  border-bottom: solid 1px #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+#header .site-title {
+  width: 180px;
+  line-height: 1px;
+  padding: 10px 0;
+}
+#header .site-title a {
+  display: block;
+}
+#header ul {
+  display: flex;
+  padding: 10px 0;
+}
+#header ul li {
+  font-size: 1.25rem;
+  margin-left: 93px;
+}
+#header ul li a {
+  color: #24292e;
+}
+#header ul li a:hover {
+  opacity: 0.7;
+}
+
+#contents {
+  margin: 0 auto;
+}
+
+.content .section-title {
+  margin: 140px 1033px 50px 140px;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.content .item {
+  display: flex;
+  align-items: center;
+  border-bottom: #333 solid 1px;
+  padding-bottom: 140px;
+}
+.content .last-child {
+  border-bottom: none;
+}
+.content img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 150px 0 140px;
+}
+.content p {
+  width: 500px;
+  text-align: left;
+}
+
+#footer {
+  border-top: solid 1px #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+#footer .favicon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 10px 0;
+}
+#footer img {
+  margin-right: 20px;
+}/*# sourceMappingURL=stylesheet.css.map */
