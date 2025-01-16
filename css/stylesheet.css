@@ -12,6 +12,10 @@ body {
 a {
   text-decoration: none;
 }
+a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
 
 img {
   max-width: 100%;
@@ -73,6 +77,18 @@ li {
   border-bottom: #333 solid 1px;
   padding-bottom: 140px;
 }
+.item.last-child .aandp{
+  display: flex;
+  flex-direction: column; /* 子要素を縦並びに */
+  align-items: flex-start; /* 左揃えにする */
+}
+
+
+.item.last-child p {
+  font-size: 1rem; /* 残りのテキストのサイズを調整 */
+  line-height: 1.6; /* 読みやすい行間を設定 */
+}
+
 .content .last-child {
   border-bottom: none;
 }
