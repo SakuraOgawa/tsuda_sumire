@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+// 共通部分
+
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "ヒラギノ角ゴ Pro W3";
+  line-height: 1.7;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 4%;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+
+#header {
+  border-bottom: solid 1px #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  .site-title {
+    width: 180px;
+    line-height: 1px;
+    padding: 10px 0;
+    a {
+      display: block;
+    }
+  }
+  ul {
+    display: flex;
+    padding: 10px 0;
+    li {
+      font-size: 1.25rem;
+      margin-left: 93px; 
+      a {
+        color: #24292e;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+
+#contents {
+  margin: 0 auto;
+}
+
+.content {
+  .section-title {
+    margin: 140px 1033px 50px 140px;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    border-bottom: #333 solid 1px;
+    padding-bottom: 140px;
+  }
+  .last-child {
+    border-bottom: none;
+  }
+  img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 150px 0 140px;
+  }
+
+  p {
+    width: 500px;
+    text-align: left;
+  }
+}
+.item.last-child {
+  display: flex;
+  flex-direction: column; /* 子要素を縦並びに */
+  align-items: flex-start; /* 左揃えにする */
+}
+
+.item.last-child a {
+  margin-bottom: 10px; /* aタグとpタグの間に余白を設定 */
+  font-size: 1.2rem; /* 必要に応じてフォントサイズを調整 */
+  color: #0066cc; /* 適当なリンクカラー */
+  text-decoration: underline; /* 下線を引いてリンクらしさを強調 */
+}
+
+.item.last-child p {
+  font-size: 1rem; /* 残りのテキストのサイズを調整 */
+  line-height: 1.6; /* 読みやすい行間を設定 */
+}
+
+
+
+
+#footer {
+  border-top: solid 1px #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  .favicon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px 0;
+  }
+  img {
+    margin-right: 20px;
+  }
+}
